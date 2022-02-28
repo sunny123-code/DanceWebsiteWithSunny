@@ -1,0 +1,42 @@
+#ContactSection{
+  background-color: rgb(104, 102, 102);
+  height: 100vh;
+}
+#ContactSection h1{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  
+  padding: 10px;
+}
+.myFrom{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+input,textarea{
+    width: 50vw;
+    margin: 1rem 0rem;
+    padding: 11px 28px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+input,textarea:focus{
+    outline: none;
+}
+.btn{
+    width: 114px;
+    height: 36px;
+    border-radius: 7px;
+    padding: 0px 11px;
+    font-size: 1rem;
+    background-color: rgb(223, 137, 223);
+    border: 2px solid white;
+    color: white;
+     text-align: center;
+     cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+}

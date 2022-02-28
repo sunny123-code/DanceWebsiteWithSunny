@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* *******************navbar******************************* */
+#navbar{
+    background-color:rgba(196, 196, 196, 0.71);
+    display: flex;
+    border-bottom: 1px solid black;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li{
+    list-style-type: none;
+    margin-right: 1.20rem;
+}
+#navbar ul li a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(223, 137, 223);
+}
+
+#logo img{
+    display: flex;
+    width: 60px;
+    border-radius: 60%;
+}
+/* *******************footer section******************************** */
+#introSection {
+    background-image: url(../public/img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    height: 70wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#introSection div{
+    /* margin-top: px; */
+   color: white;
+   font-size:3rem;
+   font-weight: bold;
+   padding-top: 2rem;
+}
+#introSection .small {
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    font-weight: 200;
+}
+/* *******************footer section******************************** */
+#cardSection{
+background-color: gainsboro;
+height: 70vh;
+
+
+}
+#cardSection h2{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: black
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+.card{
+   
+    margin: 2rem 1rem;
+    padding: 0.23rem 1rem;
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card h3{
+    text-align: center;
+    padding: 1rem;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .card-img{
+
+} */
+.card-img img{
+    width: 130px;
+}
+
+/* **************************************************************************** */
+  
+#SponserSection{
+ background-color: rgb(245, 243, 243)
+}
+#SponserSection h2{
+ color: black;
+ text-align: center;
+ padding: 1rem 1rem;
+ font-size: 2rem;
+
+}
+#sponser{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+#sponser img{
+ width: 90px;
+ margin-right: 1rem;
+ padding: 1rem;
+}
+
+/* *******************footer section******************************** */
+#footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 2rem;
+}
+/* **************************************************************************** */

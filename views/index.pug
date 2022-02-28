@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Sunny Dance Academy
+    style
+      include ../public/style.css
+    body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/public/img/logo-1.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection
+        div Welcome to Harry's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#cardSection
+     h2 Our Mission
+     div.card-section 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                     img(src="/public/img/card-1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                      img(src="/public/img/card-2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/public/img/card-3.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#SponserSection
+      h2 Our Sponser
+        div#sponser
+             img(src="/public/img/img-1.png")
+             img(src="/public/img/img-2.png")
+             img(src="/public/img/img-3.png")
+             img(src="/public/img/img-4.png")
+    footer#footer
+         | Copyright © 2022 SunnyAcademy.com | All Rights Reserved
+    script(src='../public/index.js')
